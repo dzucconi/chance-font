@@ -1,13 +1,28 @@
 {
   "name": "chance-font",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Get a random font",
+  "repository": "https://github.com/dzucconi/chance-font",
   "main": "dist/index.js",
   "scripts": {
     "build": "parcel build ./src/index.js --out-dir ./dist --target node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "yarn build",
+    "semantic-release": "semantic-release"
   },
-  "keywords": ["random", "font", "chance"],
+  "keywords": [
+    "random",
+    "font",
+    "chance"
+  ],
   "author": "dzucconi <mail@damonzucconi.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.0.2",
+    "semantic-release": "^15.13.19"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
