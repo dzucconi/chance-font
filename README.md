@@ -2,6 +2,6 @@
 
 ## Installation
 
-``sh
+```sh
 yarn add chance-font
-``
+```
