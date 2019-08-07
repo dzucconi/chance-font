@@ -1,0 +1,13 @@
+{
+  "name": "chance-font",
+  "version": "0.0.0",
+  "description": "Get a random font",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.js --out-dir ./dist --target node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["random", "font", "chance"],
+  "author": "dzucconi <mail@damonzucconi.com>",
+  "license": "MIT"
+}
