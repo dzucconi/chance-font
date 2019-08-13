@@ -20,7 +20,7 @@
   "devDependencies": {
     "cz-conventional-changelog": "3.0.2",
     "parcel": "1.12.3",
-    "semantic-release": "15.13.20"
+    "semantic-release": "15.13.21"
   },
   "config": {
     "commitizen": {
