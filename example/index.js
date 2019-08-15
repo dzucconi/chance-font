@@ -7,7 +7,7 @@ const render = () => {
 
   el.innerHTML = `
     <div class="Example" style="${style}">
-      Fat Chance John Cage
+      A real degree of freedom
     </div>
     <pre>${style}</pre>
   `;

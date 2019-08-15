@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "parcel build index.html --public-url ./",
     "start": "parcel index.html"
   },
   "dependencies": {
