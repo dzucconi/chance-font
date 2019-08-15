@@ -4,4 +4,4 @@ var e;parcelRequire=function(r,t,n,o){var a,s="function"==typeof parcelRequire&&
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=n(require("chance-font"));function n(e){return e&&e.__esModule?e:{default:e}}var t=document.getElementById("root"),r=function(){var n="font-family: ".concat((0,e.default)(),";");t.innerHTML='\n    <div class="Example" style="'.concat(n,'">\n      A real degree of freedom\n    </div>\n    <pre>').concat(n,"</pre>\n  ")};setInterval(r,200);
 },{"chance-font":"BCM7"}]},{},["Focm"], null)
-//# sourceMappingURL=/example.8dbbb209.js.map
+//# sourceMappingURL=example.8dbbb209.js.map
