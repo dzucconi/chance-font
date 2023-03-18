@@ -21,7 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "cz-conventional-changelog": "3.1.0",
-    "gh-pages": "2.2.0",
+    "gh-pages": "5.0.0",
     "parcel": "1.12.4",
     "semantic-release": "15.14.0"
   },
